@@ -20,8 +20,8 @@ jobs:
         
       - name: Create CNAME file
         run: |
-          echo "lucasgiori.dev" > ./public/CNAME
-          echo "www.lucasgiori.dev" >> ./public/CNAME
+          echo "lucasgiori.dev" > /public/CNAME
+          echo "www.lucasgiori.dev" >> /public/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
