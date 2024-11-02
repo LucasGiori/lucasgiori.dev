@@ -6,7 +6,14 @@
     <description>Recent content on lucasgiori.dev</description>
     <generator>Hugo -- 0.125.4</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2024 03:43:53 +0000</lastBuildDate>
     <atom:link href="https://lucasgiori.github.io/lucasgiori.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exemplo De Post</title>
+      <link>https://lucasgiori.github.io/lucasgiori.dev/posts/exemplo-de-post/</link>
+      <pubDate>Sat, 02 Nov 2024 03:43:53 +0000</pubDate>
+      <guid>https://lucasgiori.github.io/lucasgiori.dev/posts/exemplo-de-post/</guid>
+      <description>Olá esse é meu primeiro post</description>
+    </item>
   </channel>
 </rss>
