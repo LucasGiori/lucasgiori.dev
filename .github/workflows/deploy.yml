@@ -20,7 +20,7 @@ jobs:
       - name: Build Hugo Site
         run: |
           docker build -f Dockerfile.prod -t lucasgiori.dev .
-          docker run --rm -v ${{ github.workspace }}:/src -v lucasgiori.dev hugo
+          docker run --rm -v ${{ github.workspace }}:/src -v lucasgiori.dev
       
 
       - name: Deploy to GitHub Pages
