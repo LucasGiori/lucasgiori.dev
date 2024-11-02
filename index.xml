@@ -9,11 +9,13 @@
     <lastBuildDate>Sat, 02 Nov 2024 03:43:53 +0000</lastBuildDate>
     <atom:link href="https://lucasgiori.github.io/lucasgiori.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exemplo De Post</title>
-      <link>https://lucasgiori.github.io/lucasgiori.dev/posts/exemplo-de-post/</link>
+      <title>Architeture Decision Records</title>
+      <link>https://lucasgiori.github.io/lucasgiori.dev/posts/architeture-decision-records/</link>
       <pubDate>Sat, 02 Nov 2024 03:43:53 +0000</pubDate>
-      <guid>https://lucasgiori.github.io/lucasgiori.dev/posts/exemplo-de-post/</guid>
-      <description>Olá esse é meu primeiro post</description>
+      <guid>https://lucasgiori.github.io/lucasgiori.dev/posts/architeture-decision-records/</guid>
+      <description>O que é uma ADR ? ADR é um documento para registrar decisões no processo de desenvolvimento de software de forma contínua e compreensível.
+Por que devemos escrever uma ADR ? Em um artigo publicado por Michael Nygard, ele destaca que uma das coisas mais difíceis de se rastrear durante a vida de um projeto é a motivação por trás de certas decisões.
+Um cenário que é muito comum, no qual acredito que muitos de nós já passamos, é quando você é um novo membro de um projeto e não consegue entender a fundo a motivação, lógica e nem a consequência de uma decisão tomada.</description>
     </item>
   </channel>
 </rss>
