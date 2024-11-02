@@ -22,11 +22,9 @@ jobs:
           docker build -f Dockerfile.prod -t lucasgiori.dev .
           docker run --rm -v ${{ github.workspace }}:/src -v ${{ github.workspace }}/CNAME:/src/public/CNAME lucasgiori.dev hugo
       
-      - name: Create CNAME file
+      - name: Show CNAME file
         run: |
-          echo "lucasgiori.dev" >> ./public/CNAME
-          echo "www.lucasgiori.dev" >> ./public/CNAME
-
+          cat CNAME
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
