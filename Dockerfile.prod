@@ -1,0 +1,9 @@
+FROM alpine:latest
+
+RUN apk add --no-cache hugo git
+
+WORKDIR /src
+
+COPY . .
+
+CMD ["hugo", "version"]
