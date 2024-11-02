@@ -16,16 +16,8 @@ jobs:
       - name: Build Hugo Site
         run: |
           docker build -f Dockerfile.prod -t lucasgiori.dev .
-          docker run --rm -v ${{ github.workspace }}:/src lucasgiori.dev hugo
+          docker run --rm -v ${{ github.workspace }}:/src ${{ github.workspace }}/CNAME:/src/public/CNAME lucasgiori.dev hugo
       
-      - name: Set permissions for public directory
-        run: chmod -R 755 public
-        
-      - name: Create CNAME file in public directory
-        run: |
-          echo "lucasgiori.dev" > CNAME
-          echo "www.lucasgiori.dev" >> CNAME
-        working-directory: public  
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
