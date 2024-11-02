@@ -13,6 +13,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: "list"
+        run: |
+          ls -all
+
       - name: Build Hugo Site
         run: |
           docker build -f Dockerfile.prod -t lucasgiori.dev .
