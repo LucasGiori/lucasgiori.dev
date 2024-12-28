@@ -26,6 +26,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  social: true
 
   profileMode:
     enabled: false # needs to be explicitly set
