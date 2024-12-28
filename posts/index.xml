@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on lucasgiori.dev</title>
-    <link>https://lucasgiori.github.io/lucasgiori.dev/posts/</link>
+    <link>https://lucasgiori.github.io/posts/</link>
     <description>Recent content in Posts on lucasgiori.dev</description>
-    <generator>Hugo -- 0.125.4</generator>
+    <generator>Hugo -- 0.139.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Nov 2024 03:43:53 +0000</lastBuildDate>
-    <atom:link href="https://lucasgiori.github.io/lucasgiori.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lucasgiori.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architeture Decision Records</title>
-      <link>https://lucasgiori.github.io/lucasgiori.dev/posts/architeture-decision-records/</link>
+      <link>https://lucasgiori.github.io/posts/architeture-decision-records/</link>
       <pubDate>Sat, 02 Nov 2024 03:43:53 +0000</pubDate>
-      <guid>https://lucasgiori.github.io/lucasgiori.dev/posts/architeture-decision-records/</guid>
-      <description>O que é uma ADR ? ADR é um documento para registrar decisões no processo de desenvolvimento de software de forma contínua e compreensível.
-Por que devemos escrever uma ADR ? Em um artigo publicado por Michael Nygard, ele destaca que uma das coisas mais difíceis de se rastrear durante a vida de um projeto é a motivação por trás de certas decisões.
-Um cenário que é muito comum, no qual acredito que muitos de nós já passamos, é quando você é um novo membro de um projeto e não consegue entender a fundo a motivação, lógica e nem a consequência de uma decisão tomada.</description>
+      <guid>https://lucasgiori.github.io/posts/architeture-decision-records/</guid>
+      <description>&lt;h3 id=&#34;o-que-é-uma-adr-&#34;&gt;O que é uma ADR ?&lt;/h3&gt;
+&lt;p&gt;ADR é um documento para registrar decisões no processo de desenvolvimento de software de forma contínua e compreensível.&lt;/p&gt;
+&lt;h3 id=&#34;por-que-devemos-escrever-uma-adr-&#34;&gt;Por que devemos escrever uma ADR ?&lt;/h3&gt;
+&lt;p&gt;Em um artigo publicado por Michael Nygard, ele destaca que uma das coisas mais difíceis de se rastrear durante a vida de um projeto é a motivação por trás de certas decisões.&lt;/p&gt;
+&lt;p&gt;Um cenário que é muito comum, no qual acredito que muitos de nós já passamos, é quando você é um novo membro de um projeto e não consegue entender a fundo a motivação, lógica e nem a consequência de uma decisão tomada. Segundo Michael Nygard, quando isso acontece, temos duas opções:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
