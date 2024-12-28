@@ -27,6 +27,7 @@ params:
   showtoc: false
   tocopen: false
   social: true
+  enableRobotsTXT: true
 
   profileMode:
     enabled: false # needs to be explicitly set
