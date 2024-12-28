@@ -1,4 +1,4 @@
-baseURL: "https://lucasgiori.github.io/lucasgiori.dev/"
+baseURL: "https://lucasgiori.github.io"
 languageCode: "en-us"
 title: "lucasgiori.dev"
 theme: ["PaperMod"]
