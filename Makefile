@@ -8,4 +8,4 @@ version:
 	- docker-compose run hugo version
 
 build:
-	- docker build -f Dockerfile.prod -t lucasgiori.dev .
+	- docker build --no-cache --network host -f Dockerfile.prod -t lucasgiori.dev .
